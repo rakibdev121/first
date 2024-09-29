@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#main-t{
+    background-image: linear-gradient(#F8345F , #49288E);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.c-main{
+    background-image: linear-gradient(#25C192, #26BBAF);
+    justify-content: center;
+    width: 50rem;
+    height: 25rem;
+    border-radius: 5px; 
+}
+.he{
+    text-align: center;
+    margin-top: 0.70rem;
+}
+.tbl{
+    width: 100%;
+    height: 88%;
+    border-spacing: 0px;
+}
+.tbl thead tr th{
+    background: #65D1BF;
+    padding: 20px;
+    font-size: 20px;
+
+}
+.tbl tbody tr  td{
+    border-bottom: 1px solid #65D1BF;
+}
+.tbl tbody {
+    text-align: center;
+    font-size: 1.3rem;
+}
